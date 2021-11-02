@@ -1,0 +1,176 @@
+body {
+  font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  margin: 0 0 48px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.headshot {
+  border-radius: 15px;
+}
+
+.circle-icon {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  padding: 13px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.right {
+  flex: 1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.headshot {
+  box-shadow: 0px 0px 40px 10px gray;
+}
+
+.shaded {
+  background-color: lightgray;
+}
+
+.center-text {
+  text-align: center;
+}
+
+ol {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ol li {
+  padding-left: 24px;
+}
+
+ol li h2 {
+  font-size: 24px;
+}
+
+ol li p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.tiles-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 435px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 4px;
+}
+  
+.image-card .tile-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 435px;
+}
+  
+.image-card .image-card-label {
+  position: absolute;
+  left: 4px;
+  bottom: 86px;
+  background-color: white;
+  margin-right: 32px;
+  padding: 16px 32px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0.8;
+}
+  
+.image-card .image-card-label .image-card-label-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.image-card .image-card-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    width: 180px;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #fff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.image-card .image-card-content p {
+  text-align: center;
+  font-weight: 700;
+}
+
+.image-card .image-card-content p:before,
+.image-card .image-card-content p:after {
+  content: '"';
+}
+
+.image-card .image-card-content button {
+    display: block;
+    margin: 0 auto;
+	box-shadow: inset 0px 1px 0px 0px #a4e271;
+	background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color: #89c403;
+	border-radius: 33px;
+	border: 1px solid #74b807;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 12px 32px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #528009;
+}
+
+.image-card .image-card-content button:hover {
+  background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+  background-color: #77a809;
+}
+  
+ .image-card .image-card-content button:active {
+   position: relative;
+   top: 1px;
+}
